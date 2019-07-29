@@ -7,7 +7,7 @@ ul{
 }
 ul.chs_list_item li{
 	padding: 20px 0 0 25px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	position: relative;
 	float: left;
 	display: inline;
@@ -66,6 +66,9 @@ ul.chs_list_view li:after{
 	content:"\f00d";
 	font-size: 150%;
 }
+ul.chs_list_item.select li:before{
+	color: red;
+}
 ul.chs_list_item li:before{
 	position: absolute;
 	top: 20px;
@@ -104,10 +107,10 @@ ul.chs_list_item li:before{
 }
 */
 #chs_player_total{
-	font-size: 35px;
+	font-size: 25px;
 	color: #FFFFFF;
 	font-weight: lighter;
-	padding: 0px 0 0 20px;
+	padding: 0px;
 }
 .chs_bg{
 	background-image:url(chs_bg.jpg);
@@ -143,7 +146,7 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-	/* opacity: 0.7; */
+	opacity: 0.7;
 }
 /* .btn{
 	display: flex !important;
@@ -152,7 +155,7 @@ body{
 .chs_title_select{
 	width: 100%;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: lighter;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -162,7 +165,7 @@ body{
 #chs_list_select{
 	width: 100%;
 	height: auto;
-	padding: 20px;
+	padding: 20px 0;
 	margin-top: 20px;
 }
 .chs_btn{

@@ -1,5 +1,5 @@
 var top_1 = ['Quân Phạm', 'Kha','Chú Phương', 'Nơ','Linh Tăng', 'Trang','Nái', 'Đình', 'Phương Linh','Văn', 'Duy', 'Điệp','Vũ', 'Phượng'];
-// var top_2 = ['Quân Phạm', 'Kha','Chú Phương', 'Nơ','Linh Tăng', 'Trang','Nái', 'Phương Linh','Văn', 'Điệp','Vũ', 'Phượng'];
+var top_2 = [];
 var player_total = "";
 var top_num = "";
 var text = "";
@@ -14,11 +14,10 @@ function list_view(){
 	}
 	text = text + "</ul>";
 	document.getElementById("chs_list_view").innerHTML = text;
-	document.getElementById("chs_player_total").innerHTML = "Có tổng cộng " + player_total + " bé";
+	document.getElementById("chs_player_total").innerHTML = "Có " + player_total + " bé đang chờ, để được chọn =))";
 }
 function delete_item(i, j){
 	j.splice(i,1);
-	// i++;
 	setTimeout(list_view, 300);
 }
 
@@ -50,11 +49,22 @@ function count_down(){
 		document.getElementById("chs_popup_content").innerHTML = seconds;
 		if (distance < 0) {
 			clearInterval(x);
+			top_2.push(top_1[num_random]);
 			document.getElementById("chs_popup_content").innerHTML = top_1[num_random];
 		}
 		delete_item(num_random, top_1);
+		show_list_select();
 	}, 1000);
 }
 function stop_count_down(){
 	clearInterval(x);
+}
+function show_list_select(){
+	var text_select = "<ul class='chs_list_item select'>";
+	for (i = 0; i < top_2.length; i++){
+		text_select += "<li class='chs_list_2team'>" + top_2[i] + "</li>";
+	}
+
+	text_select = text_select + "</ul>";
+    document.getElementById("chs_list_select").innerHTML = text_select;
 }

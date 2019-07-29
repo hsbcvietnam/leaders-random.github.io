@@ -17,20 +17,52 @@
 <script>
 	$(document).ready(function(){
 		list_view();
+		show_list_select();
 	});
 </script>
 </head>
 
 <body >
-<div class="chs_headline">NGÀY HỘI SINH HOẠT<BR>CHỦ NHIỆM SÁNG TẠO</div>
+<div class="container-flur">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="chs_headline">NGÀY HỘI SINH HOẠT<BR>CHỦ NHIỆM SÁNG TẠO</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<div id="chs_player_total"></div>
+			<p id="chs_list_view"></p>
+			<div class="chs_btn">
+			  <button onclick="count_down()" style="margin: 20px 0 0 20px;" type="button" class="btn btn-danger chs_btn_countdown" data-toggle="modal" data-target="#myModal">RANDOM LEADER</button>
+			</div>
+			<p class="chs_title_select">CÁC BÉ ĐÃ CHỌN</p>
+			<div id="chs_list_select"></div>
 
-<div id="chs_player_total"></div>
+			<div class="modal fade" id="myModal" role="dialog" onClick="stop_count_down()">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-body chs_popup_bg">
+						       <p id="chs_popup_content"></p>
+			        </div>
+			      </div>
+
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- <div class="chs_headline">NGÀY HỘI SINH HOẠT<BR>CHỦ NHIỆM SÁNG TẠO</div> -->
+
+<!-- <div id="chs_player_total"></div>
 <p id="chs_list_view"></p>
 <div class="chs_btn">
   <button onclick="count_down()" style="margin: 20px 0 0 20px;" type="button" class="btn btn-danger chs_btn_countdown" data-toggle="modal" data-target="#myModal">RANDOM LEADER</button>
 </div>
 <p class="chs_title_select">CÁC BÉ ĐÃ CHỌN</p>
-<div id="chs_list_select">123</div>
+<div id="chs_list_select"></div>
 
 <div class="modal fade" id="myModal" role="dialog" onClick="stop_count_down()">
     <div class="modal-dialog">
@@ -41,7 +73,7 @@
       </div>
 
     </div>
-</div>
+</div> -->
 
 
 
