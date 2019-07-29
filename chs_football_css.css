@@ -15,6 +15,7 @@ ul.chs_list_item li{
 	opacity: 1;
 	transition: opacity 1s;
 	color: #FFFFFF;
+	font-size: 18px;
 }
 ul.chs_list_view li{
 	width: 100% !important;
@@ -146,12 +147,7 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-	opacity: 0.7;
 }
-/* .btn{
-	display: flex !important;
-	margin: 50px auto !important;
-} */
 .chs_title_select{
 	width: 100%;
 	text-align: center;
@@ -165,8 +161,8 @@ body{
 #chs_list_select{
 	width: 100%;
 	height: auto;
-	padding: 20px 0;
-	margin-top: 20px;
+	padding: 0 0 20px 0;
+	/* margin-top: 20px; */
 }
 .chs_btn{
 	width: 100%;
