@@ -169,4 +169,9 @@ body{
 	height: auto;
 	display: flex;
 	justify-content: center;
+
+}
+.chs_btn button{
+	background-color: rgba(199, 0, 57, 0.8) !important;
+	border: none !important;
 }
