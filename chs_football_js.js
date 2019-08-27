@@ -40,7 +40,7 @@ function count_down(){
 	var list_random = 0;
 	x = setInterval(function(){
 		var num_random = Math.floor(Math.random() * top_1.length);
-		if(list_random < 20){
+		if(list_random < 15){
 			document.getElementById("chs_popup_content").innerHTML = top_1[num_random];
 			list_random++;
 		}else{
@@ -50,28 +50,7 @@ function count_down(){
 			delete_item(num_random, top_1);
 			show_list_select();
 		}
-
-	}, 150);
-
-
-
-	// document.getElementById("chs_popup_content").innerHTML = "START";
-	// var countDownDate = new Date().getTime();// + 4200;
-	// x = setInterval(function() {
-	// 	var now = new Date().getTime();
-	// 	var distance = countDownDate - now;
-	// 	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	// 	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	// 	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-	// 	document.getElementById("chs_popup_content").innerHTML = seconds;
-	// 	if (distance < 0) {
-	// 		clearInterval(x);
-	// 		top_2.push(top_1[num_random]);
-	// 		document.getElementById("chs_popup_content").innerHTML = top_1[num_random];
-	// 	}
-		// delete_item(num_random, top_1);
-		// show_list_select();
-	// }, 1000);
+	}, 200);
 }
 function stop_count_down(){
 	clearInterval(x);
