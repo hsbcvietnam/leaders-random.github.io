@@ -44,7 +44,7 @@ ul.chs_list_view li:before{
 	position: absolute;
 	top: 20px;
 	left: 5px;
-	font-family: FontAwesome;
+	font-family: 'Glyphicons Halflings';
 	content:"\f007";
 	color: #FFFFFF;
 }
@@ -52,20 +52,21 @@ ul.chs_list_view li:after{
 	position: absolute;
 	top: 15px;
 	left: 135px;
-	font-family: FontAwesome;
-	content:"\f00d";
+	font-family: 'Glyphicons Halflings';
+	content:"\e258";
 	font-size: 150%;
 }
 ul.chs_list_item.select li:before{
-	color: red;
+	color: #F94626;
 }
 ul.chs_list_item li:before{
 	position: absolute;
-	top: 20px;
-	left: 5px;
-	font-family: FontAwesome;
-	content:"\f054";
-	color: green;
+	top: 22px;
+	left: 0px;
+	font-family: 'Glyphicons Halflings';
+	content:"\e258";
+	color: #60F5FC;
+	font-size: 80%;
 }
 .chs_headline{
 	margin: 0 0 20px 0  ;
@@ -124,7 +125,7 @@ p#chs_popup_content{
 	margin: 0px;
 }
 .modal-content{
-	margin: 30% 15px 0 auto !important;
+	margin: 30% auto 0 auto !important;
 }
 body{
 	background-image: url(background_img.jpg);
