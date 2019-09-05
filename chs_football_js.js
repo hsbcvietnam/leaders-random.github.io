@@ -38,9 +38,10 @@ function myFunction() {
 var x;
 function count_down(){
 	var list_random = 0;
+
 	x = setInterval(function(){
 		var num_random = Math.floor(Math.random() * top_1.length);
-		if(list_random < 15){
+		if(list_random < 20){
 			document.getElementById("chs_popup_content").innerHTML = top_1[num_random];
 			list_random++;
 		}else{
@@ -50,7 +51,7 @@ function count_down(){
 			delete_item(num_random, top_1);
 			show_list_select();
 		}
-	}, 200);
+	}, 150);
 }
 function stop_count_down(){
 	clearInterval(x);
