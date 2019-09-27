@@ -1,5 +1,5 @@
-var top_1 = ['Quân Phạm', 'Nơ','Nái', 'Đình', 'Duy', 'Điệp', 'Phượng', 'Tiên'];
-var top_2 = ['Kha', 'Phương Linh', 'Trang', 'Zăn', 'Chú Phương','Linh Tăng','Vũ'];
+var top_1 = ['Quân Phạm', 'Nơ','Nái', 'Duy', 'Điệp', 'Phượng', 'Tiên'];
+var top_2 = ['Kha', 'Phương Linh', 'Trang', 'Zăn', 'Chú Phương','Linh Tăng','Vũ', 'Đình'];
 var player_total = "";
 var top_num = "";
 var text = "";
