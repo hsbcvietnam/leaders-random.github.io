@@ -38,7 +38,6 @@ function myFunction() {
 var x;
 function count_down(){
 	var list_random = 0;
-
 	x = setInterval(function(){
 		var num_random = Math.floor(Math.random() * top_1.length);
 		if(list_random < 20){
