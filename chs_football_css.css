@@ -113,22 +113,35 @@ ul.chs_list_item li:before{
 	padding: 5px 10px;
 	color: #FFFFFF;
 }
+.modal-content{
+	background-color: inherit !important;
+}
 .chs_popup_bg{
-	background-color: #C00241;
+	background-image: url(images/background.jpg);
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 500%;
 	border-radius: 5px;
+	padding-bottom: 30px !important;
+}
+#chs_popup_img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 p#chs_popup_content{
 	padding: 30px 0px;
 	margin: 0px;
 }
 .modal-content{
-	margin: 30% auto 0 auto !important;
+	margin: 30% 15px 0 auto !important;
 }
 body{
-	background-image: url(background_img.jpg);
+	background-image: url(images/background.jpg);
+	background-color: inherit;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
