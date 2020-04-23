@@ -1,6 +1,6 @@
-var list_all = ['Phương Linh', 'Trang', 'Chú Phương','Vũ Cọp', 'Đình Đình', 'Điệp', 'Quân Phạm', 'Phượng', 'Nơ', 'Thái Tiên', 'Ti Nhỏ', 'Nhum', 'Linh Tăng', 'Nái', 'Bé Đăng', 'Duy', 'Kha', 'Zăn'];
-var list_1 = ['linh_hoang', 'trang_nguyen', 'phuong_ho','vu_nguyen', 'dinh_nguyen', 'diep_tran', 'quan_pham', 'phuong_nguyen', 'quynh_le', 'tien_nguyen', 'tien_pham', 'nhan_nguyen'];
-var list_2 = ['Linh Tăng', 'Nái', 'Bé Đăng', 'Duy', 'Kha', 'Zăn'];
+var list_all = ['Phương Linh', 'Trang', 'Chú Phương', 'Đình Đình', 'Điệp', 'Quân Phạm', 'Phượng', 'Nơ', 'Thái Tiên', 'Ti Nhỏ', 'Linh Tăng', 'Nái', 'Bé Đăng', 'Duy', 'Kha', 'Zăn', 'Nhum','Vũ Cọp'];
+var list_1 = ['linh_hoang', 'trang_nguyen', 'phuong_ho', 'dinh_nguyen', 'diep_tran', 'quan_pham', 'phuong_nguyen', 'quynh_le', 'tien_nguyen', 'tien_pham'];
+var list_2 = ['Linh Tăng', 'Nái', 'Bé Đăng', 'Duy', 'Kha', 'Zăn', 'Nhum','Vũ Cọp'];
 var player_total = "";
 var list_num = "";
 var text = "";
